@@ -12,11 +12,6 @@ Contents
 * 3.2 Challenge - Start Your App Idea in Xcode
 * 4.1 Tutorial - User Interface Layout
 * 4.2 Challenge - Setup an NSTimer
-
-
-
-
-
 * 5.1 Tutorial - Connect the User Interface to Code
 * 5.2 Challenge - Stop Watch - Connect Buttons and Format NSDate Objects
 * 6.1 Tutorial - Create App Logic with Custom Classes
