@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA437DF81909FE2700E66AD8 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = DA437DF51909FE2700E66AD8 /* Fraction.m */; };
+		DA437DF91909FE2700E66AD8 /* FractionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA437DF71909FE2700E66AD8 /* FractionHelper.m */; };
+		DA49B4D81905CC7D00F5D92F /* UnitSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA49B4D71905CC7D00F5D92F /* UnitSliderView.m */; };
+		DA49B4DA1905CC9800F5D92F /* UnitSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA49B4D91905CC9800F5D92F /* UnitSliderView.xib */; };
+		DAB4095019466AE6000FE0E5 /* FractionLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB4094F19466AE6000FE0E5 /* FractionLabel.xib */; };
+		DAB4095319466AFA000FE0E5 /* FractionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4095219466AFA000FE0E5 /* FractionLabel.m */; };
+		DAB85D9A18CCFE410091EC97 /* LayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB85D9918CCFE410091EC97 /* LayoutTableViewController.m */; };
+		DAD7C07F1889F00C00B04853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7C07E1889F00C00B04853 /* Foundation.framework */; };
+		DAD7C0811889F00C00B04853 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7C0801889F00C00B04853 /* CoreGraphics.framework */; };
+		DAD7C0831889F00C00B04853 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7C0821889F00C00B04853 /* UIKit.framework */; };
+		DAD7C0891889F00C00B04853 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD7C0871889F00C00B04853 /* InfoPlist.strings */; };
+		DAD7C08B1889F00C00B04853 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7C08A1889F00C00B04853 /* main.m */; };
+		DAD7C08F1889F00C00B04853 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7C08E1889F00C00B04853 /* AppDelegate.m */; };
+		DAD7C0921889F00C00B04853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD7C0901889F00C00B04853 /* Main.storyboard */; };
+		DAD7C0951889F00C00B04853 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7C0941889F00C00B04853 /* ViewController.m */; };
+		DAD7C0971889F00C00B04853 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD7C0961889F00C00B04853 /* Images.xcassets */; };
+		DAD7C09E1889F00C00B04853 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7C09D1889F00C00B04853 /* XCTest.framework */; };
+		DAD7C09F1889F00C00B04853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7C07E1889F00C00B04853 /* Foundation.framework */; };
+		DAD7C0A01889F00C00B04853 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAD7C0821889F00C00B04853 /* UIKit.framework */; };
+		DAD7C0A81889F00C00B04853 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAD7C0A61889F00C00B04853 /* InfoPlist.strings */; };
+		DAD7C0AA1889F00C00B04853 /* MatBorderCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7C0A91889F00C00B04853 /* MatBorderCalculatorTests.m */; };
+		DAD7C0B41889F2EC00B04853 /* Row.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAD7C0B31889F2EC00B04853 /* Row.jpg */; };
+		DAD7C0B71889FAC500B04853 /* MatBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD7C0B61889FAC500B04853 /* MatBorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD7C0A11889F00C00B04853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD7C0731889F00C00B04853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD7C07A1889F00C00B04853;
+			remoteInfo = MatBorderCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA437DF41909FE2700E66AD8 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		DA437DF51909FE2700E66AD8 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		DA437DF61909FE2700E66AD8 /* FractionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionHelper.h; sourceTree = "<group>"; };
+		DA437DF71909FE2700E66AD8 /* FractionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionHelper.m; sourceTree = "<group>"; };
+		DA49B4D61905CC7D00F5D92F /* UnitSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitSliderView.h; sourceTree = "<group>"; };
+		DA49B4D71905CC7D00F5D92F /* UnitSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitSliderView.m; sourceTree = "<group>"; };
+		DA49B4D91905CC9800F5D92F /* UnitSliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnitSliderView.xib; sourceTree = "<group>"; };
+		DAB4094F19466AE6000FE0E5 /* FractionLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FractionLabel.xib; sourceTree = "<group>"; };
+		DAB4095119466AFA000FE0E5 /* FractionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FractionLabel.h; sourceTree = "<group>"; };
+		DAB4095219466AFA000FE0E5 /* FractionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FractionLabel.m; sourceTree = "<group>"; };
+		DAB85D9818CCFE410091EC97 /* LayoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutTableViewController.h; sourceTree = "<group>"; };
+		DAB85D9918CCFE410091EC97 /* LayoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutTableViewController.m; sourceTree = "<group>"; };
+		DAD7C07B1889F00C00B04853 /* MatBorderCalculator 16.8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MatBorderCalculator 16.8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7C07E1889F00C00B04853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAD7C0801889F00C00B04853 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAD7C0821889F00C00B04853 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAD7C0861889F00C00B04853 /* MatBorderCalculator 16.8-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatBorderCalculator 16.8-Info.plist"; sourceTree = "<group>"; };
+		DAD7C0881889F00C00B04853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAD7C08A1889F00C00B04853 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD7C08C1889F00C00B04853 /* MatBorderCalculator 16.8-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MatBorderCalculator 16.8-Prefix.pch"; sourceTree = "<group>"; };
+		DAD7C08D1889F00C00B04853 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAD7C08E1889F00C00B04853 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAD7C0911889F00C00B04853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD7C0931889F00C00B04853 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAD7C0941889F00C00B04853 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAD7C0961889F00C00B04853 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAD7C09C1889F00C00B04853 /* MatBorderCalculator 16.8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MatBorderCalculator 16.8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7C09D1889F00C00B04853 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DAD7C0A51889F00C00B04853 /* MatBorderCalculator 16.8Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatBorderCalculator 16.8Tests-Info.plist"; sourceTree = "<group>"; };
+		DAD7C0A71889F00C00B04853 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAD7C0A91889F00C00B04853 /* MatBorderCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatBorderCalculatorTests.m; sourceTree = "<group>"; };
+		DAD7C0B31889F2EC00B04853 /* Row.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Row.jpg; sourceTree = "<group>"; };
+		DAD7C0B51889FAC500B04853 /* MatBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatBorder.h; sourceTree = "<group>"; };
+		DAD7C0B61889FAC500B04853 /* MatBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatBorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD7C0781889F00C00B04853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7C0811889F00C00B04853 /* CoreGraphics.framework in Frameworks */,
+				DAD7C0831889F00C00B04853 /* UIKit.framework in Frameworks */,
+				DAD7C07F1889F00C00B04853 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7C0991889F00C00B04853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7C09E1889F00C00B04853 /* XCTest.framework in Frameworks */,
+				DAD7C0A01889F00C00B04853 /* UIKit.framework in Frameworks */,
+				DAD7C09F1889F00C00B04853 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD7C0721889F00C00B04853 = {
+			isa = PBXGroup;
+			children = (
+				DAD7C0841889F00C00B04853 /* MatBorderCalculator */,
+				DAD7C0A31889F00C00B04853 /* MatBorderCalculatorTests */,
+				DAD7C07D1889F00C00B04853 /* Frameworks */,
+				DAD7C07C1889F00C00B04853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD7C07C1889F00C00B04853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7C07B1889F00C00B04853 /* MatBorderCalculator 16.8.app */,
+				DAD7C09C1889F00C00B04853 /* MatBorderCalculator 16.8Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD7C07D1889F00C00B04853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7C07E1889F00C00B04853 /* Foundation.framework */,
+				DAD7C0801889F00C00B04853 /* CoreGraphics.framework */,
+				DAD7C0821889F00C00B04853 /* UIKit.framework */,
+				DAD7C09D1889F00C00B04853 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD7C0841889F00C00B04853 /* MatBorderCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7C0B31889F2EC00B04853 /* Row.jpg */,
+				DAD7C08D1889F00C00B04853 /* AppDelegate.h */,
+				DAD7C08E1889F00C00B04853 /* AppDelegate.m */,
+				DAD7C0901889F00C00B04853 /* Main.storyboard */,
+				DAD7C0931889F00C00B04853 /* ViewController.h */,
+				DAD7C0941889F00C00B04853 /* ViewController.m */,
+				DAD7C0B51889FAC500B04853 /* MatBorder.h */,
+				DAD7C0B61889FAC500B04853 /* MatBorder.m */,
+				DAB85D9818CCFE410091EC97 /* LayoutTableViewController.h */,
+				DAB85D9918CCFE410091EC97 /* LayoutTableViewController.m */,
+				DA49B4D61905CC7D00F5D92F /* UnitSliderView.h */,
+				DA49B4D71905CC7D00F5D92F /* UnitSliderView.m */,
+				DA49B4D91905CC9800F5D92F /* UnitSliderView.xib */,
+				DA437DF41909FE2700E66AD8 /* Fraction.h */,
+				DA437DF51909FE2700E66AD8 /* Fraction.m */,
+				DA437DF61909FE2700E66AD8 /* FractionHelper.h */,
+				DA437DF71909FE2700E66AD8 /* FractionHelper.m */,
+				DAB4095119466AFA000FE0E5 /* FractionLabel.h */,
+				DAB4095219466AFA000FE0E5 /* FractionLabel.m */,
+				DAB4094F19466AE6000FE0E5 /* FractionLabel.xib */,
+				DAD7C0961889F00C00B04853 /* Images.xcassets */,
+				DAD7C0851889F00C00B04853 /* Supporting Files */,
+			);
+			path = MatBorderCalculator;
+			sourceTree = "<group>";
+		};
+		DAD7C0851889F00C00B04853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7C0861889F00C00B04853 /* MatBorderCalculator 16.8-Info.plist */,
+				DAD7C0871889F00C00B04853 /* InfoPlist.strings */,
+				DAD7C08A1889F00C00B04853 /* main.m */,
+				DAD7C08C1889F00C00B04853 /* MatBorderCalculator 16.8-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD7C0A31889F00C00B04853 /* MatBorderCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7C0A91889F00C00B04853 /* MatBorderCalculatorTests.m */,
+				DAD7C0A41889F00C00B04853 /* Supporting Files */,
+			);
+			path = MatBorderCalculatorTests;
+			sourceTree = "<group>";
+		};
+		DAD7C0A41889F00C00B04853 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7C0A51889F00C00B04853 /* MatBorderCalculator 16.8Tests-Info.plist */,
+				DAD7C0A61889F00C00B04853 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD7C07A1889F00C00B04853 /* MatBorderCalculator 16.8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7C0AD1889F00C00B04853 /* Build configuration list for PBXNativeTarget "MatBorderCalculator 16.8" */;
+			buildPhases = (
+				DAD7C0771889F00C00B04853 /* Sources */,
+				DAD7C0781889F00C00B04853 /* Frameworks */,
+				DAD7C0791889F00C00B04853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MatBorderCalculator 16.8";
+			productName = MatBorderCalculator;
+			productReference = DAD7C07B1889F00C00B04853 /* MatBorderCalculator 16.8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD7C09B1889F00C00B04853 /* MatBorderCalculator 16.8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7C0B01889F00C00B04853 /* Build configuration list for PBXNativeTarget "MatBorderCalculator 16.8Tests" */;
+			buildPhases = (
+				DAD7C0981889F00C00B04853 /* Sources */,
+				DAD7C0991889F00C00B04853 /* Frameworks */,
+				DAD7C09A1889F00C00B04853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD7C0A21889F00C00B04853 /* PBXTargetDependency */,
+			);
+			name = "MatBorderCalculator 16.8Tests";
+			productName = MatBorderCalculatorTests;
+			productReference = DAD7C09C1889F00C00B04853 /* MatBorderCalculator 16.8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD7C0731889F00C00B04853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Paul Solt";
+				TargetAttributes = {
+					DAD7C09B1889F00C00B04853 = {
+						TestTargetID = DAD7C07A1889F00C00B04853;
+					};
+				};
+			};
+			buildConfigurationList = DAD7C0761889F00C00B04853 /* Build configuration list for PBXProject "MatBorderCalculator 16.8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD7C0721889F00C00B04853;
+			productRefGroup = DAD7C07C1889F00C00B04853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD7C07A1889F00C00B04853 /* MatBorderCalculator 16.8 */,
+				DAD7C09B1889F00C00B04853 /* MatBorderCalculator 16.8Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD7C0791889F00C00B04853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7C0971889F00C00B04853 /* Images.xcassets in Resources */,
+				DAD7C0891889F00C00B04853 /* InfoPlist.strings in Resources */,
+				DAD7C0B41889F2EC00B04853 /* Row.jpg in Resources */,
+				DAD7C0921889F00C00B04853 /* Main.storyboard in Resources */,
+				DAB4095019466AE6000FE0E5 /* FractionLabel.xib in Resources */,
+				DA49B4DA1905CC9800F5D92F /* UnitSliderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7C09A1889F00C00B04853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7C0A81889F00C00B04853 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD7C0771889F00C00B04853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA437DF81909FE2700E66AD8 /* Fraction.m in Sources */,
+				DA437DF91909FE2700E66AD8 /* FractionHelper.m in Sources */,
+				DAD7C0951889F00C00B04853 /* ViewController.m in Sources */,
+				DAB4095319466AFA000FE0E5 /* FractionLabel.m in Sources */,
+				DA49B4D81905CC7D00F5D92F /* UnitSliderView.m in Sources */,
+				DAD7C08F1889F00C00B04853 /* AppDelegate.m in Sources */,
+				DAB85D9A18CCFE410091EC97 /* LayoutTableViewController.m in Sources */,
+				DAD7C0B71889FAC500B04853 /* MatBorder.m in Sources */,
+				DAD7C08B1889F00C00B04853 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7C0981889F00C00B04853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7C0AA1889F00C00B04853 /* MatBorderCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD7C0A21889F00C00B04853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD7C07A1889F00C00B04853 /* MatBorderCalculator 16.8 */;
+			targetProxy = DAD7C0A11889F00C00B04853 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD7C0871889F00C00B04853 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD7C0881889F00C00B04853 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAD7C0901889F00C00B04853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD7C0911889F00C00B04853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD7C0A61889F00C00B04853 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD7C0A71889F00C00B04853 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD7C0AB1889F00C00B04853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAD7C0AC1889F00C00B04853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD7C0AE1889F00C00B04853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatBorderCalculator/MatBorderCalculator 16.8-Prefix.pch";
+				INFOPLIST_FILE = "MatBorderCalculator/MatBorderCalculator 16.8-Info.plist";
+				PRODUCT_NAME = "MatBorderCalculator 16.8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAD7C0AF1889F00C00B04853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatBorderCalculator/MatBorderCalculator 16.8-Prefix.pch";
+				INFOPLIST_FILE = "MatBorderCalculator/MatBorderCalculator 16.8-Info.plist";
+				PRODUCT_NAME = "MatBorderCalculator 16.8";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DAD7C0B11889F00C00B04853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MatBorderCalculator.app/MatBorderCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatBorderCalculator/MatBorderCalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MatBorderCalculatorTests/MatBorderCalculator 16.8Tests-Info.plist";
+				PRODUCT_NAME = "MatBorderCalculator 16.8Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DAD7C0B21889F00C00B04853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MatBorderCalculator.app/MatBorderCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MatBorderCalculator/MatBorderCalculator-Prefix.pch";
+				INFOPLIST_FILE = "MatBorderCalculatorTests/MatBorderCalculator 16.8Tests-Info.plist";
+				PRODUCT_NAME = "MatBorderCalculator 16.8Tests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD7C0761889F00C00B04853 /* Build configuration list for PBXProject "MatBorderCalculator 16.8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7C0AB1889F00C00B04853 /* Debug */,
+				DAD7C0AC1889F00C00B04853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7C0AD1889F00C00B04853 /* Build configuration list for PBXNativeTarget "MatBorderCalculator 16.8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7C0AE1889F00C00B04853 /* Debug */,
+				DAD7C0AF1889F00C00B04853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7C0B01889F00C00B04853 /* Build configuration list for PBXNativeTarget "MatBorderCalculator 16.8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7C0B11889F00C00B04853 /* Debug */,
+				DAD7C0B21889F00C00B04853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD7C0731889F00C00B04853 /* Project object */;
+}

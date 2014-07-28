@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FractionLabel">
+            <connections>
+                <outlet property="fractionLabel" destination="YNx-U1-ld2" id="K6V-aw-hNO"/>
+                <outlet property="numberLabel" destination="Kaa-qm-6Go" id="TEP-vZ-Ibj"/>
+                <outlet property="view" destination="iN0-l3-epB" id="dNM-uY-lLp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="72" height="21"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kaa-qm-6Go">
+                    <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14/16" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNx-U1-ld2">
+                    <rect key="frame" x="45" y="5" width="27" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="27" id="pfT-I2-8X6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YNx-U1-ld2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="HTZ-34-cbK"/>
+                <constraint firstItem="YNx-U1-ld2" firstAttribute="leading" secondItem="Kaa-qm-6Go" secondAttribute="trailing" constant="3" id="LT8-pE-iPM"/>
+                <constraint firstItem="Kaa-qm-6Go" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="j2c-zV-vqF"/>
+                <constraint firstItem="Kaa-qm-6Go" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ns8-ZP-7AY"/>
+                <constraint firstAttribute="trailing" secondItem="YNx-U1-ld2" secondAttribute="trailing" id="tii-7V-WuT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>
